@@ -1,0 +1,304 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{ margin: 0;
+padding: 30;
+font-family: 'Poppins', sans-serif;
+}
+
+
+/*header*/
+
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 40px;
+margin-right: 60px;
+padding-top: 40px;}
+
+
+.icons ul{list-style: none;}
+.icons .facebook{margin-right: 25px;}
+.icons .instagram{margin-right: 25px;}
+.icons .linkedin{margin-right: 25px;}
+.icons ul li{width: 50%;
+height: 50%;
+line-height: 2%;
+margin: 0 3px;
+text-align: center;
+cursor: pointer;
+border-radius: 65%;
+border: 4px solid white;
+float: left;
+transition: all 0.5s ease;
+}
+
+.icons ul li .fa{ color: #3e45f2;
+margin-top:15px;
+transition: all 0.5s ease;}
+
+.icons ul li:hover.facebook{border: 4px solid #3e45f2;
+box-shadow: 0 0 15px #3e45f2;
+transition: all 0.5s ease ;}
+
+.icons ul li:hover .fa-facebook{color: #3e45f2;
+text-shadow: 0 0 15px #3e45f2;
+transition: all 0.5s ease;}
+
+.icons ul li .in{ color: #3e45f2;
+margin-top: 15px;
+transition: all 0.5s ease;}
+    
+.icons ul li:hover.instagram{border: 5px solid #3e45f2;
+box-shadow: 0 0 15px #3e45f2;
+transition: all 0.5s ease ;}
+    
+.icons ul li:hover .in-instagram{color: #3e45f2;
+text-shadow: 0 0 15px #3e45f2;
+transition: all 0.5s ease;}
+    
+
+.icons ul li .li{ color: #3e45f2;
+margin-top: 15px;
+transition: all 0.5s ease;}
+        
+.icons ul li:hover.linkedin{border: 5px solid #3e45f2;
+box-shadow: 0 0 15px #3e45f2;
+transition: all 0.5s ease ;}
+        
+.icons ul li:hover .li-linkedin{color: #3e45f2;
+text-shadow: 0 0 15px #3e45f2;
+transition: all 0.5s ease;}
+        
+
+.icons ul li .dr{ color: #3e45f2;
+margin-top: 150px;
+transition: all 0.5s ease;}
+            
+.icons ul li:hover.dribbble{border: 5px solid #3e45f2;
+box-shadow: 0 0 15px #3e45f2;
+transition: all 0.5s ease ;}
+            
+.icons ul li:hover .dr-dribbble{color: #3e45f2;
+text-shadow: 0 0 15px #3e45f2;
+transition: all 0.5s ease;}
+            
+
+
+
+.marca{font-size: 19px;
+margin-left: 230px;
+color: #292929;}
+ul{display: flex;
+justify-content: center;}
+li{list-style: none;
+margin-left: 50px;}
+li a{text-decoration: none;
+color: #292929;
+font-size: 19px;}
+li a::after{
+content: '';
+width: 0;
+height: 3px;
+background-color: #3e45f2;
+margin: auto;
+display: block;}
+li a:hover::after{width: 100%;
+transition: width 0.3s linear;}
+
+
+
+
+/*container hero*/
+
+.containerhero{ 
+height: 80vh;
+display: flex;
+/* justify-content: space-around; */
+margin: 80px 150px 80px 90px;
+align-items: center;
+justify-content: space-between;
+color: #292929;}
+.hero1 {margin-top: 20px;}
+.hero1 .one{font-size: 25px;}
+.hero1 h1{font-size: 85px;}
+.hero1 h2{font-size: 25px;}
+span{color: #3e45f2;}
+.hero1 .two{margin-right: 130px; 
+font-size: 18px;}
+.btn{ color: white; 
+padding: 16px 66px;
+margin-top: 30px;
+font-size: 15px; 
+cursor: pointer;
+border: none;
+text-decoration: none;
+background-image: linear-gradient(to right, #292929 50%, #3e45f2 50%);
+background-size: 200%;
+background-repeat: no-repeat;
+background-position: left;
+transition: background-position 0.5s ease;}    
+.btn:hover{background-position: right;}    
+.hero2 img{  width: 630px; margin-top: 20px;
+margin-right: -150px; filter: grayscale(100%);}
+
+
+
+
+/*container logos*/
+    
+.containerlogos{ display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+.behance{margin-left: -50px;
+margin-right: 120px;
+margin-top: 50px;}
+.google{margin-left: 10px;
+margin-right: 139px;
+margin-bottom: -16px;
+margin-top: 50px;}
+.dribbble{margin-left: 10px;
+margin-right: 145px;}
+.uplabs{margin-left: 10px;
+margin-right: 130px;}
+.design {margin-left: 10px; margin-right: 0px;}
+
+
+
+
+/*containerabout*/
+.containeraboutme{
+margin: auto;
+margin-top: 50px;
+padding-bottom: 100px;
+background-color: #292929;}
+.aboutme{
+padding-top: 80px;
+color: white;
+text-align: center;}
+.aboutme h1{
+font-size: 60px;}
+.aboutme p{
+font-size: 19px;
+margin-left: 320px;
+margin-right: 320px;
+margin-bottom: 30px;}
+ 
+.contenedor figure{
+position: relative;
+width: 1100px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgb(0,0,0,0.50);
+cursor: pointer;
+margin-left: 100px;}
+.contenedor figure img{width: 100%;
+height: 100%;
+transition: all 500ms ease-out;}
+.contenedor figure .capa{position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(11,103,123,0.6);
+transition: all 500ms ease-out;
+opacity: 0;
+visibility: hidden;
+text-align: center;}
+.contenedor figure:hover> .capa{
+opacity: 1;
+visibility: visible;}
+.contenedor figure:hover > .capa h3{margin-top: 250px;margin-bottom: 50px;}
+.contenedor figure .capa h3{ color: white; 
+font-size: 70px;
+margin-bottom: 10px;
+transition: all 500ms ease-out;
+margin-top: 100px; }
+
+
+
+/*containerportfolio*/
+.containerportfolio{background-color: white;
+color: #292929;
+margin-bottom: 60px;}
+.portfolio{text-align: center;}
+.portfolio h1{font-size: 60px;
+padding-top: 50px;
+margin-bottom: 60px;}
+img{cursor: pointer;}
+.imagenesportfolio{ display: flex;
+margin-left: 50px;
+margin-right: 50px;}
+.imagen1portfolio{ margin-bottom: 32px;
+transition: 0.5s;
+object-fit: cover;}
+.imagen1portfolio:hover{transform: scale(1.2);}
+
+.imagen4portfolio{margin-bottom: 32px;
+transition: 0.5s;
+object-fit: cover;}
+.imagen4portfolio:hover{transform: scale(1.2);}
+
+.imagen2portfolio{
+transition: 0.5s;
+object-fit: cover;}
+.imagen2portfolio:hover{transform: scale(1.2);}
+
+.imagen5portfolio{
+transition: 0.5s;
+object-fit: cover;}
+.imagen5portfolio:hover{transform: scale(1.2);}
+
+  
+
+/*containter contact*/
+
+.containercontact{background-color: #e7e7e7;
+color: #292929;}
+.contact h1{text-align: center;
+padding-top: 40px; 
+padding-bottom: 30px;
+font-size: 60px;} 
+form{ display: flex; 
+justify-content: center;
+align-items: center;}
+
+.lovely{ width: 500px;
+height: 65px;
+font-size: 18px;
+padding-left: 20px;
+border: 1px solid #292929;
+}
+
+.contact button{ width: 200px;
+height: 69px;
+cursor: pointer;
+background-color: #292929;
+border: 1px solid #292929;
+color: white; 
+font-size: 20px;
+background-image: linear-gradient(to right, #292929 50%, #3e45f2 50%);
+background-size: 200%;
+background-repeat: no-repeat;
+background-position:left;
+transition: background-position 0.5s ease;}
+button:hover{background-position: right;}   
+.containericons{background-color: #e7e7e7; 
+padding-bottom: 30px;
+padding-top: 30px;
+padding-left: 50px;}
+.iconsfinal .dribbble{margin-left: 50px;}
+  
+
+    
+/*footer*/
+.footer{background-color: #e7e7e7;
+padding-bottom:  50px;
+display: flex;
+color: #292929;}
+.icons9{margin-left: 450px;
+    margin-right: 5px;}
+
